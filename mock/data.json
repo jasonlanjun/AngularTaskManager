@@ -1,0 +1,148 @@
+{
+  "roles": [
+    {
+      "id": 0,
+      "name": "SuperUser"
+    },
+    {
+      "id": 1,
+      "name": "User"
+    },
+    {
+      "id": 2,
+      "name": "Project Manager"
+    }
+  ],
+  "users": [
+    {
+      "password": "111111",
+      "name": "jasonlan",
+      "email": "jason.lanjun@gmail.com",
+      "avatar": "avatars:svg-1",
+      "identity": {
+        "identityType": 1,
+        "identityNo": "uuuuuuuuuuu"
+      },
+      "address": {
+        "province": "BC",
+        "city": "BURNABY",
+        "district": "NORTH BURNABY",
+        "street": "444444444"
+      },
+      "dateOfBirth": "1988-08-19",
+      "id": "mSb7Fqt",
+      "projectIds": [],
+      "roleIds": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "password": "111111",
+      "name": "jj",
+      "email": "jun.lan@moneris.com",
+      "avatar": "avatars:svg-3",
+      "identity": {
+        "identityType": 1,
+        "identityNo": "99"
+      },
+      "address": {
+        "province": "BC",
+        "city": "BURNABY",
+        "district": "NORTH BURNABY",
+        "street": "444444444"
+      },
+      "dateOfBirth": "",
+      "id": "bISr_NI",
+      "projectIds": [
+        5
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "test project",
+      "desc": "test project for junlan",
+      "coverImg": "/assets/img/covers/10.jpg",
+      "members": [
+        "bISr_NI"
+      ],
+      "id": 1
+    }
+  ],
+  "taskLists": [
+    {
+      "name": "Todo",
+      "projectId": 1,
+      "order": 1,
+      "id": 1
+    },
+    {
+      "name": "Progressing",
+      "projectId": 1,
+      "order": 2,
+      "id": 2
+    },
+    {
+      "name": "Done",
+      "order": 4,
+      "projectId": 1,
+      "id": 3
+    },
+    {
+      "name": "Deployment",
+      "order": 3,
+      "projectId": 1,
+      "id": 4
+    }
+  ],
+  "tasks": [
+    {
+      "taskListId": 3,
+      "desc": "hhhhhhhh",
+      "completed": true,
+      "ownerId": "bISr_NI",
+      "participantIds": [],
+      "dueDate": "2022-01-21T08:00:00.000Z",
+      "priority": 1,
+      "remark": "hh",
+      "reminder": "2022-01-21T08:00:00.000Z",
+      "createDate": "2022-01-16T01:21:06.288Z",
+      "id": 1
+    }
+  ],
+  "taskFilter": [],
+  "taskHistory": [
+    {
+      "taskId": 1,
+      "operator": {
+        "id": "bISr_NI",
+        "email": "jun.lan@moneris.com",
+        "name": "jj",
+        "avatar": "avatars:svg-3"
+      },
+      "operation": {
+        "payload": "hhhhhhhh",
+        "type": "createTask"
+      },
+      "date": "2022-01-16T01:21:06.610Z",
+      "id": 1
+    },
+    {
+      "taskId": 1,
+      "operator": {
+        "id": "bISr_NI",
+        "email": "jun.lan@moneris.com",
+        "name": "jj",
+        "avatar": "avatars:svg-3"
+      },
+      "operation": {
+        "type": "completeTask"
+      },
+      "date": "2022-01-16T01:21:09.088Z",
+      "id": 2
+    }
+  ]
+
+}
